@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Inter:wght@100;200;300;400;500;600;700;800&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Nanum+Myeongjo&family=Open+Sans:wght@400;600;700&family=Pacifico&family=Roboto:wght@100;300;400;500;700;900&family=Titillium+Web:wght@200;300;400;600;700;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary py-5 nav ">
+        <div class="container">
+
+          <a class="navbar-brand" href="#">
+          <img src="./images/logo@2x.png" alt="Logo" width="60" height="40" class="d-inline-block align-text-top"> Weather </a>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 w-75 d-flex justify-content-evenly">
+
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="#">News</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="#">Live cameras</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="#">Photos</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="#">Contact</a>
+              </li>
+
+            </ul>
+
+          </div>
+        </div>
+    </nav>
+
+    <!-- -----------end navbar----------- -->
+
+    <div class="site-content ">
+        
+        <div class="back-img py-5">
+
+            <div class="container">
+
+                <div class="search-box">
+
+                    <form class="find mb-4 w-100 px-2 py-1 rounded-5 d-flex justify-content-between align-items-center">
+                        <input type="text"  id="search" placeholder="Find your location...." class="search-loc w-75 rounded-5 border-0">
+                        <input type="button" value="Find" id="submit" class="btn py-2 px-5 rounded-5">
+                    </form>
+
+                </div>
+
+            </div>
+
+            <div class="table  ">
+
+                <div class="container">
+
+                  <div class="forecast-cotainer d-flex justify-content-center " id="predict">
+                     
+                  </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="footer py-5">
+
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-md-8">
+
+            <div class="search-box">
+
+              <form class="find mb-4 w-100 px-2 py-1 rounded-5 d-flex justify-content-between align-items-center">
+                  <input type="text"  id="search" placeholder="Enter your email to subscribe..." class="search-loc w-75 rounded-5">
+                  <input type="button" value="subscribe" id="submit" class="btn py-2 px-3 rounded-5">
+              </form>
+
+          </div>
+
+          </div>
+
+          <div class="col-md-4">
+
+            <div class="end-ico">
+
+              <ul class="d-flex justify-content-evenly">
+
+                <li><i class="fa-brands fa-facebook-f px-3"></i></li>
+                <li><i class="fa-brands fa-twitter"></i></li>
+                <li><i class="fa-brands fa-google-plus-g"></i></li>
+                <li><i class="fa-brands fa-pinterest"></i></li>
+
+              </ul>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <span>Copyright 2014 Company name. Designed by Themezy. All rights reserved</span>
+
+      </div>
+
+    </div>
+   
+    
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+</html>
